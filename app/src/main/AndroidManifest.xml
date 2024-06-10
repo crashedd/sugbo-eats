@@ -13,7 +13,7 @@
         android:theme="@style/Theme.SugboEats"
         tools:targetApi="31">
         <activity
-            android:name=".MyReservationScreen"
+            android:name=".Reservation_screen"
             android:exported="true">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -22,12 +22,15 @@
         </intent-filter>
         </activity>
         <activity
+            android:name=".MyReservationScreen"
+            android:exported="true">
+        </activity>
+        <activity
             android:name=".ResetLink"
             android:exported="false"></activity>
         <activity
             android:name=".ResetPass"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true"></activity>
